@@ -1,0 +1,43 @@
+.game {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    width: 700px;
+}
+
+.left-player-score-value {
+    color: #eb0b0b;
+}
+
+.right-player-score-value {
+    color: #5d9cec;
+}
+
+.game-board {
+    position: relative;
+}
+
+.pause {
+    background: rgb(51 51 51 / 75%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f20c;
+}
